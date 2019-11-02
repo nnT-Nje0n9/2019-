@@ -1,2 +1,2 @@
 # 2019 camgong
-Data Struture
+Data Structure
