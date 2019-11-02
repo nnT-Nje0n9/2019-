@@ -27,7 +27,7 @@ void f(int i, int j)
 	
 	while(i<j)
 	{
-		while(s[k] >= s[i] && i<e1) i++; // && i<j1 ÇÊ¿äÇÑ°¡? 
+		while(s[k] >= s[i] && i<e1) i++;
 		while(s[k] <= s[j] && j>s1) j--;
 		
 		if(i<j)
@@ -58,7 +58,7 @@ int main()
 		scanf("%d",&s[i]);
 	}
 	
-	f(0,n-1); // ½ÃÀÛ ½ÃÁ¡, Á¾·á ½ÃÁ¡ 
+	f(0,n-1); // ì‹œìž‘ ì‹œì , ì¢…ë£Œ ì‹œì  
 	
 	for(i=0; i<n; i++) // output
 	{
