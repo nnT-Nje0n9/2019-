@@ -100,6 +100,7 @@ int main()
 			}
 		}
 	}
+	
 	printf("\n");
 	printf("Preorder\n");
 	Pre(root);
